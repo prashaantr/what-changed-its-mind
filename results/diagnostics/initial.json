@@ -1,0 +1,578 @@
+[
+  {
+    "id": "diagnostics:fair_die:diagnostic:canonical:2bf60339b183",
+    "snapshot_id": "diagnostics",
+    "race_id": "fair_die",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "2bf60339b183b5a06d7bf91c433bac95d8a806412caa77b6b730cc6cc1a0c1e4",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.600640Z",
+    "completed_at": "2026-10-28T06:07:24.838217Z",
+    "status": "ok",
+    "probabilities": {
+      "1": 0.24,
+      "2": 0.12,
+      "3": 0.14,
+      "4": 0.19,
+      "5": 0.11,
+      "6": 0.2
+    },
+    "selected": "1",
+    "usage": {
+      "input_tokens": 389,
+      "output_tokens": 59,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.838123+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "Next roll of an independent fair six-sided die."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "1": "Face 1",
+            "2": "Face 2",
+            "3": "Face 3",
+            "4": "Face 4",
+            "5": "Face 5",
+            "6": "Face 6"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "1",
+          "confidence": 0.09,
+          "probabilities": {
+            "1": 0.24,
+            "2": 0.12,
+            "3": 0.14,
+            "4": 0.19,
+            "5": 0.11,
+            "6": 0.2
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 389,
+        "output_tokens": 59
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:biased_die:diagnostic:canonical:e019d3840a1e",
+    "snapshot_id": "diagnostics",
+    "race_id": "biased_die",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "e019d3840a1ec02ba65b4bf8f538b3ba1723e29345f000e659a78e767ec877ad",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.653389Z",
+    "completed_at": "2026-10-28T06:07:24.842181Z",
+    "status": "ok",
+    "probabilities": {
+      "1": 0.6,
+      "2": 0.11,
+      "3": 0.06,
+      "4": 0.07,
+      "5": 0.05,
+      "6": 0.11
+    },
+    "selected": "1",
+    "usage": {
+      "input_tokens": 429,
+      "output_tokens": 59,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.842131+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "Independent six-sided die with face probabilities: 1=0.5, 2=0.1, 3=0.1, 4=0.1, 5=0.1, 6=0.1."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "1": "Face 1",
+            "2": "Face 2",
+            "3": "Face 3",
+            "4": "Face 4",
+            "5": "Face 5",
+            "6": "Face 6"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "1",
+          "confidence": 0.52,
+          "probabilities": {
+            "1": 0.6,
+            "2": 0.11,
+            "3": 0.06,
+            "4": 0.07,
+            "5": 0.05,
+            "6": 0.11
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 429,
+        "output_tokens": 59
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:deterministic:diagnostic:canonical:4a16ca47a772",
+    "snapshot_id": "diagnostics",
+    "race_id": "deterministic",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "4a16ca47a772aff3f11643e662d3b3567edc8ca5bca9f893cf92734d254d3339",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.653717Z",
+    "completed_at": "2026-10-28T06:07:24.843141Z",
+    "status": "ok",
+    "probabilities": {
+      "A": 1.0,
+      "B": 0.0
+    },
+    "selected": "A",
+    "usage": {
+      "input_tokens": 329,
+      "output_tokens": 31,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.843102+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "The sealed record explicitly says the winner is A."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "A": "A",
+            "B": "B"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "A",
+          "confidence": 1.0,
+          "probabilities": {
+            "A": 1.0,
+            "B": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 329,
+        "output_tokens": 31
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:binary_fair:diagnostic:canonical:269714ea39e8",
+    "snapshot_id": "diagnostics",
+    "race_id": "binary_fair",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "269714ea39e853538c7d08b6bf4366cdfa53a2f8f1a5806945a2a773865f8398",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.653913Z",
+    "completed_at": "2026-10-28T06:07:24.843872Z",
+    "status": "ok",
+    "probabilities": {
+      "A": 0.7,
+      "B": 0.3
+    },
+    "selected": "A",
+    "usage": {
+      "input_tokens": 333,
+      "output_tokens": 31,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.843850+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "Independent fair coin, A and B each probability 0.5."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "A": "A",
+            "B": "B"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "A",
+          "confidence": 0.4,
+          "probabilities": {
+            "A": 0.7,
+            "B": 0.3
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 333,
+        "output_tokens": 31
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:binary_biased:diagnostic:canonical:3f1f210fe1fe",
+    "snapshot_id": "diagnostics",
+    "race_id": "binary_biased",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "3f1f210fe1fe7288bc93c4c0a92b9fbdcc0d039322f6910d39db9050c2a59849",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.654146Z",
+    "completed_at": "2026-10-28T06:07:24.924892Z",
+    "status": "ok",
+    "probabilities": {
+      "A": 0.86,
+      "B": 0.14
+    },
+    "selected": "A",
+    "usage": {
+      "input_tokens": 336,
+      "output_tokens": 31,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.924844+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "Independent draw, A probability 0.8 and B probability 0.2."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "A": "A",
+            "B": "B"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "A",
+          "confidence": 0.72,
+          "probabilities": {
+            "A": 0.86,
+            "B": 0.14
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 336,
+        "output_tokens": 31
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:synthetic_order:diagnostic:canonical:2a01ad0a7562",
+    "snapshot_id": "diagnostics",
+    "race_id": "synthetic_order",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "2a01ad0a7562dbf56af7d0c45aded9818bfb478571171e40f2939463571d3ed5",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.654176Z",
+    "completed_at": "2026-10-28T06:07:24.942599Z",
+    "status": "ok",
+    "probabilities": {
+      "Alpha": 0.77,
+      "Beta": 0.23
+    },
+    "selected": "Alpha",
+    "usage": {
+      "input_tokens": 340,
+      "output_tokens": 31,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.942551+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "Fictional election lottery: Alpha receives probability 0.7; Beta 0.3."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "Alpha": "Alpha",
+            "Beta": "Beta"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "Alpha",
+          "confidence": 0.54,
+          "probabilities": {
+            "Alpha": 0.77,
+            "Beta": 0.23
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 340,
+        "output_tokens": 31
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:synthetic_order_reversed:diagnostic:canonical:737649fcb2fc",
+    "snapshot_id": "diagnostics",
+    "race_id": "synthetic_order_reversed",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "737649fcb2fc87b91111668795a7e4d23160e448437a2347d52e190d6a458cd9",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.654196Z",
+    "completed_at": "2026-10-28T06:07:24.904336Z",
+    "status": "ok",
+    "probabilities": {
+      "Beta": 0.11,
+      "Alpha": 0.89
+    },
+    "selected": "Alpha",
+    "usage": {
+      "input_tokens": 340,
+      "output_tokens": 31,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.904283+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "Fictional election lottery: Alpha receives probability 0.7; Beta 0.3."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "Beta": "Beta",
+            "Alpha": "Alpha"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "Alpha",
+          "confidence": 0.78,
+          "probabilities": {
+            "Beta": 0.11,
+            "Alpha": 0.89
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 340,
+        "output_tokens": 31
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  },
+  {
+    "id": "diagnostics:deterministic_reversed:diagnostic:canonical:69ef76729388",
+    "snapshot_id": "diagnostics",
+    "race_id": "deterministic_reversed",
+    "arm": "diagnostic",
+    "ordering": "canonical",
+    "request_hash": "69ef767293889bdbbf888fa7edaec29767693e2243a4f383f8f2ffaea1150313",
+    "requested_model": "jev-1.14.0",
+    "returned_model": "jev-1.14.0",
+    "started_at": "2026-10-28T06:07:24.654212Z",
+    "completed_at": "2026-10-28T06:07:24.921501Z",
+    "status": "ok",
+    "probabilities": {
+      "B": 0.0,
+      "A": 1.0
+    },
+    "selected": "A",
+    "usage": {
+      "input_tokens": 329,
+      "output_tokens": 31,
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "at": "2026-10-28T06:07:24.921441+00:00"
+        }
+      ]
+    },
+    "error": null,
+    "request": {
+      "model": "jev-1.14.0",
+      "state": {
+        "description": "The sealed record explicitly says the winner is A."
+      },
+      "questions": {
+        "winner": {
+          "type": "choice",
+          "instructions": "Return the outcome distribution warranted by the explicitly supplied process or record.",
+          "criteria": {
+            "B": "B",
+            "A": "A"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "winner": {
+          "type": "choice",
+          "choice": "A",
+          "confidence": 1.0,
+          "probabilities": {
+            "B": 0.0,
+            "A": 1.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 329,
+        "output_tokens": 31
+      }
+    },
+    "observation_ids": [],
+    "omitted_observation_ids": [],
+    "attempts": 1,
+    "reused_from": null,
+    "synthetic": false
+  }
+]

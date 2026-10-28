@@ -1,0 +1,137 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "acquisition_id": {
+      "title": "Acquisition Id",
+      "type": "string"
+    },
+    "race_id": {
+      "title": "Race Id",
+      "type": "string"
+    },
+    "candidate_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Candidate Id"
+    },
+    "kind": {
+      "enum": [
+        "fundamental",
+        "poll",
+        "candidate_statement",
+        "local_reporting",
+        "focus_group"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "value": {
+      "additionalProperties": true,
+      "title": "Value",
+      "type": "object"
+    },
+    "excerpt": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Excerpt"
+    },
+    "locator": {
+      "title": "Locator",
+      "type": "string"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Published At"
+    },
+    "available_at": {
+      "format": "date-time",
+      "title": "Available At",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "content_sha256": {
+      "title": "Content Sha256",
+      "type": "string"
+    },
+    "geography": {
+      "title": "Geography",
+      "type": "string"
+    },
+    "geography_scope": {
+      "enum": [
+        "district",
+        "state",
+        "national"
+      ],
+      "title": "Geography Scope",
+      "type": "string"
+    },
+    "record_type": {
+      "default": "fact",
+      "enum": [
+        "fact",
+        "full_session",
+        "edited_clip",
+        "summary",
+        "excerpt"
+      ],
+      "title": "Record Type",
+      "type": "string"
+    },
+    "synthetic": {
+      "default": false,
+      "title": "Synthetic",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "source_id",
+    "acquisition_id",
+    "race_id",
+    "kind",
+    "locator",
+    "available_at",
+    "retrieved_at",
+    "content_sha256",
+    "geography",
+    "geography_scope"
+  ],
+  "title": "Observation",
+  "type": "object"
+}

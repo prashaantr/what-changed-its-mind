@@ -1,0 +1,198 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "snapshot_id": {
+      "title": "Snapshot Id",
+      "type": "string"
+    },
+    "race_id": {
+      "title": "Race Id",
+      "type": "string"
+    },
+    "arm": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "D_no_focus",
+        "diagnostic",
+        "classification"
+      ],
+      "title": "Arm",
+      "type": "string"
+    },
+    "ordering": {
+      "default": "canonical",
+      "enum": [
+        "canonical",
+        "reverse_candidates",
+        "reverse_evidence"
+      ],
+      "title": "Ordering",
+      "type": "string"
+    },
+    "request_hash": {
+      "title": "Request Hash",
+      "type": "string"
+    },
+    "requested_model": {
+      "default": "jev-1.14.0",
+      "title": "Requested Model",
+      "type": "string"
+    },
+    "returned_model": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Returned Model"
+    },
+    "started_at": {
+      "format": "date-time",
+      "title": "Started At",
+      "type": "string"
+    },
+    "completed_at": {
+      "format": "date-time",
+      "title": "Completed At",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "ok",
+        "error",
+        "unavailable"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "probabilities": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Probabilities"
+    },
+    "selected": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Selected"
+    },
+    "usage": {
+      "additionalProperties": true,
+      "title": "Usage",
+      "type": "object"
+    },
+    "error": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error"
+    },
+    "request": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Request"
+    },
+    "response": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Response"
+    },
+    "observation_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Observation Ids",
+      "type": "array"
+    },
+    "omitted_observation_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Omitted Observation Ids",
+      "type": "array"
+    },
+    "attempts": {
+      "default": 0,
+      "title": "Attempts",
+      "type": "integer"
+    },
+    "reused_from": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reused From"
+    },
+    "synthetic": {
+      "default": false,
+      "title": "Synthetic",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "snapshot_id",
+    "race_id",
+    "arm",
+    "request_hash",
+    "started_at",
+    "completed_at",
+    "status"
+  ],
+  "title": "Inference",
+  "type": "object"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-28T06:32:21.503629+00:00",
+  "sha256": "6015dbccc41cf6f299be8d1b03152d6ba47f7987105991a37f7200949b1e2687",
+  "counts": {
+    "races": 6,
+    "selected": 3,
+    "sources": 18,
+    "forecasts": 23,
+    "focusGroups": 0
+  },
+  "export_policy": "1.0.0",
+  "file": "experiment.json"
+}

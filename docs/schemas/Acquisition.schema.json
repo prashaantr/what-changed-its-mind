@@ -1,0 +1,50 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "raw_sha256": {
+      "title": "Raw Sha256",
+      "type": "string"
+    },
+    "media_type": {
+      "title": "Media Type",
+      "type": "string"
+    },
+    "parser_version": {
+      "default": "1",
+      "title": "Parser Version",
+      "type": "string"
+    },
+    "http_status": {
+      "title": "Http Status",
+      "type": "integer"
+    },
+    "final_url": {
+      "title": "Final Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "source_id",
+    "retrieved_at",
+    "raw_sha256",
+    "media_type",
+    "http_status",
+    "final_url"
+  ],
+  "title": "Acquisition",
+  "type": "object"
+}

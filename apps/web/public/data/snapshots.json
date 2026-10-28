@@ -1,0 +1,9 @@
+{
+  "snapshots": [
+    {
+      "id": "initial-v1",
+      "cutoff": "2026-10-28T06:24:05.134763+00:00",
+      "url": "data/snapshots/initial-v1.json"
+    }
+  ]
+}

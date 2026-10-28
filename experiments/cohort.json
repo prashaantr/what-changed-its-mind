@@ -1,0 +1,181 @@
+{
+  "protocol_version": "1.0.0",
+  "initial_snapshot_id": "initial-v1",
+  "initial_snapshot_hash": "b480d73874d8a75b2e26c07b9e922d52050f6882c56b3d5586f116013184258d",
+  "initial_cutoff": "2026-10-28T06:24:05.134763+00:00",
+  "race_ids": [
+    "IA-SEN-2026",
+    "KS-SEN-2026",
+    "TX-SEN-2026"
+  ],
+  "original_races": [
+    {
+      "id": "IA-SEN-2026",
+      "name": "Iowa US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "IA",
+      "state_fips": "19",
+      "district": null,
+      "seat": null,
+      "boundary_version": "Census state reference; statewide Senate contest verified by official county election notice",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "ia-sen-2026-josh-turek",
+          "name": "Josh Turek",
+          "party": "DEM",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "ia-sen-2026-ashley-hinson",
+          "name": "Ashley Hinson",
+          "party": "REP",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "ia-sen-2026-thomas-laehn",
+          "name": "Thomas Laehn",
+          "party": "LIB",
+          "incumbent": null,
+          "fec_id": null
+        }
+      ],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "crystal-ball-oct27",
+        "keokuk-ia-ballot-2026",
+        "census-state-codes"
+      ],
+      "selected": true,
+      "selection_reason": "Verified coverage; Toss-up before Lean, then SHA-256 race ID",
+      "synthetic": false
+    },
+    {
+      "id": "KS-SEN-2026",
+      "name": "Kansas US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "KS",
+      "state_fips": "20",
+      "district": null,
+      "seat": null,
+      "boundary_version": "Census state reference; statewide Senate contest verified by official county election notice",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "ks-sen-2026-adam-hamilton",
+          "name": "Adam Hamilton",
+          "party": "DEM",
+          "incumbent": false,
+          "fec_id": null
+        },
+        {
+          "id": "ks-sen-2026-david-c-graham",
+          "name": "David C. Graham",
+          "party": "LIB",
+          "incumbent": false,
+          "fec_id": null
+        },
+        {
+          "id": "ks-sen-2026-roger-marshall",
+          "name": "Roger Marshall",
+          "party": "REP",
+          "incumbent": true,
+          "fec_id": null
+        }
+      ],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "crystal-ball-oct27",
+        "johnson-ks-ballot-2026",
+        "census-state-codes"
+      ],
+      "selected": true,
+      "selection_reason": "Verified coverage; Toss-up before Lean, then SHA-256 race ID",
+      "synthetic": false
+    },
+    {
+      "id": "TX-SEN-2026",
+      "name": "Texas US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "TX",
+      "state_fips": "48",
+      "district": null,
+      "seat": "class-2",
+      "boundary_version": "Census state reference, state-wide Senate seat",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "tx-sen-2026-avery-ayers",
+          "name": "Avery Ayers",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-bradford-brad-hall",
+          "name": "Bradford \"Brad\" Hall",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-jade-simmons",
+          "name": "Jade Simmons",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-james-talarico",
+          "name": "James Talarico",
+          "party": "DEM",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-ken-paxton",
+          "name": "Ken Paxton",
+          "party": "REP",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-ted-brown",
+          "name": "Ted Brown",
+          "party": "LIB",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-zul-mohamed",
+          "name": "Zul Mohamed",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        }
+      ],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "texas-ballot-2026",
+        "texas-writeins-2026",
+        "census-state-codes",
+        "crystal-ball-oct27"
+      ],
+      "selected": true,
+      "selection_reason": "Verified coverage; Toss-up before Lean, then SHA-256 race ID",
+      "synthetic": false
+    }
+  ],
+  "content_hash": "2662a79698c54f905ba75ed71f526f493638d6f508ed4cf81cf30c21b2ecf988"
+}

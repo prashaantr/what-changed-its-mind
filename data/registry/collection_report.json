@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-10-28T06:20:30.846667+00:00",
+  "sources": [
+    {
+      "source_id": "keokuk-ia-ballot-2026",
+      "status": "reused_verified_acquisition",
+      "bytes": 27059,
+      "retrieved_at": "2026-10-28T06:14:43.337967+00:00",
+      "sha256": "810d1d205ea6d80d6f6dc6bb209e1e5228b98f983edbae72b360703551f419cd"
+    },
+    {
+      "source_id": "johnson-ks-ballot-2026",
+      "status": "reused_verified_acquisition",
+      "bytes": 141540,
+      "retrieved_at": "2026-10-28T06:14:43.832294+00:00",
+      "sha256": "ab1992481fdd03336d8b797815872dd85bf6f4e239122b54c3c1b79e419d91a4"
+    },
+    {
+      "source_id": "marist-ia-2026-10-15",
+      "status": "reused_verified_acquisition",
+      "bytes": 47076,
+      "retrieved_at": "2026-10-28T06:14:44.119924+00:00",
+      "sha256": "955935717ca385b09581280bad2b359ecfa538429e0791cf8f80c4143e58f6f0"
+    },
+    {
+      "source_id": "ipr-ia-debate-2026-10-08",
+      "status": "reused_verified_acquisition",
+      "bytes": 181710,
+      "retrieved_at": "2026-10-28T06:14:44.217557+00:00",
+      "sha256": "8841ccc9998ff872ae5e0e4aff60e93cd39b3a9ab777496ecd2a6477d2acdb78"
+    },
+    {
+      "source_id": "redbox-ks-2026-10-25",
+      "status": "reused_verified_acquisition",
+      "bytes": 156100,
+      "retrieved_at": "2026-10-28T06:14:44.525238+00:00",
+      "sha256": "0c5fbe63b289d623af7584a99f9d01c4eb9c6a14aac642f93ac7f81f74139c10"
+    },
+    {
+      "source_id": "kcur-ks-debate-2026-10-21",
+      "status": "reused_verified_acquisition",
+      "bytes": 221155,
+      "retrieved_at": "2026-10-28T06:14:44.625790+00:00",
+      "sha256": "c56fc41614605b6775a7c47f9681df5deef7677716b1a0a94f647aa52f1bb60e"
+    },
+    {
+      "source_id": "fec-federal-elections-2020",
+      "status": "acquired",
+      "bytes": 12531393,
+      "retrieved_at": "2026-10-28T06:20:28.233724+00:00",
+      "sha256": "e4e6d5efd911ff02bffffb47180d05278f98a07655bd390d078904f545d12836"
+    },
+    {
+      "source_id": "tribune-tx-debates-2026-10-07",
+      "status": "reused_verified_acquisition",
+      "bytes": 317355,
+      "retrieved_at": "2026-10-28T06:07:48.468442+00:00",
+      "sha256": "bcbb77cdb9b4ec369eb4f03bda5faeda8a214b4d90fed55d6becbaedae98644e"
+    },
+    {
+      "source_id": "crystal-ball-oct27",
+      "status": "reused_verified_acquisition",
+      "bytes": 211610,
+      "retrieved_at": "2026-10-28T06:07:48.556422+00:00",
+      "sha256": "554e8cd6660dae95c385f35999d13ddbcf893202597046b36ed7d29a8b991171"
+    },
+    {
+      "source_id": "texas-ballot-2026",
+      "status": "reused_verified_acquisition",
+      "bytes": 5919631,
+      "retrieved_at": "2026-10-28T06:07:50.498666+00:00",
+      "sha256": "c13ffb4ebeee389fa9818d47b31f77b4e260ea6e6f5389cb7bf0f36d9b44d87c"
+    },
+    {
+      "source_id": "texas-writeins-2026",
+      "status": "reused_verified_acquisition",
+      "bytes": 1008540,
+      "retrieved_at": "2026-10-28T06:07:50.690946+00:00",
+      "sha256": "eece7f9fa38c65eef150d62ba0a142672dc187b7feb2f90bc330f9c5a226aa24"
+    },
+    {
+      "source_id": "marist-tx-2026-10-14",
+      "status": "reused_verified_acquisition",
+      "bytes": 47190,
+      "retrieved_at": "2026-10-28T06:07:51.095849+00:00",
+      "sha256": "a6f8d7c55f0d4d440f14dcd42c12c536a0b4456e27c2ca1de1a4c4149463c545"
+    },
+    {
+      "source_id": "ncsbe-candidate-list-2026",
+      "status": "reused_verified_acquisition",
+      "bytes": 2079875,
+      "retrieved_at": "2026-10-28T06:07:52.344451+00:00",
+      "sha256": "2f1c1b932dff920bc690c3e5fc1813ff4389cb5a28ef0b99d4bb06c9fef09cbe"
+    },
+    {
+      "source_id": "census-state-codes",
+      "status": "reused_verified_acquisition",
+      "bytes": 1485,
+      "retrieved_at": "2026-10-28T06:07:52.644862+00:00",
+      "sha256": "bea4e03f71a1fa0045ae732aabad11fa541e5932b071c2369bb0d325e8cba5a0"
+    },
+    {
+      "source_id": "ecu-nc-poll-2026-10-08",
+      "status": "reused_verified_acquisition",
+      "bytes": 25977,
+      "retrieved_at": "2026-10-28T06:07:53.186996+00:00",
+      "sha256": "07f0bb1d382dde9401af43574c6b23efad64add466b5e95327677389f0a96422"
+    },
+    {
+      "source_id": "crystal-ball-senate-2026",
+      "status": "blocked",
+      "error": "Client error '403 Forbidden' for url 'https://centerforpolitics.org/crystalball/2026-senate/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "attempted_at": "2026-10-28T06:20:28.455018+00:00"
+    },
+    {
+      "source_id": "crystal-ball-house-2026",
+      "status": "blocked",
+      "error": "Client error '403 Forbidden' for url 'https://centerforpolitics.org/crystalball/2026-house/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "attempted_at": "2026-10-28T06:20:28.623423+00:00"
+    },
+    {
+      "source_id": "engagious-deciders-2026",
+      "status": "reused_verified_acquisition",
+      "bytes": 116746,
+      "retrieved_at": "2026-10-28T06:07:53.627994+00:00",
+      "sha256": "df325b21df4391c7b6313021eb6d2df23bf29947a3c275ba756d13c847e41bdd"
+    }
+  ],
+  "races_with_verified_roster_and_geography": 4,
+  "metadata_races": 6,
+  "selected_races": 3,
+  "observations": 10,
+  "target_cohort": {
+    "maximum_competitive_races": 30
+  },
+  "cohort_status": "partial_cohort_not_30_races"
+}

@@ -1,0 +1,193 @@
+{
+  "$defs": {
+    "Candidate": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "party": {
+          "title": "Party",
+          "type": "string"
+        },
+        "incumbent": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Incumbent"
+        },
+        "fec_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fec Id"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "party"
+      ],
+      "title": "Candidate",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "cycle": {
+      "default": 2026,
+      "title": "Cycle",
+      "type": "integer"
+    },
+    "office": {
+      "enum": [
+        "house",
+        "senate"
+      ],
+      "title": "Office",
+      "type": "string"
+    },
+    "state": {
+      "title": "State",
+      "type": "string"
+    },
+    "state_fips": {
+      "title": "State Fips",
+      "type": "string"
+    },
+    "district": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "District"
+    },
+    "seat": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Seat"
+    },
+    "boundary_version": {
+      "title": "Boundary Version",
+      "type": "string"
+    },
+    "geography_verified": {
+      "default": false,
+      "title": "Geography Verified",
+      "type": "boolean"
+    },
+    "roster_verified": {
+      "default": false,
+      "title": "Roster Verified",
+      "type": "boolean"
+    },
+    "candidates": {
+      "items": {
+        "$ref": "#/$defs/Candidate"
+      },
+      "title": "Candidates",
+      "type": "array"
+    },
+    "rating": {
+      "anyOf": [
+        {
+          "enum": [
+            "Toss-up",
+            "Lean D",
+            "Lean R",
+            "Lean I",
+            "Likely D",
+            "Likely R"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rating"
+    },
+    "rating_source_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rating Source Id"
+    },
+    "source_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Ids",
+      "type": "array"
+    },
+    "selected": {
+      "default": false,
+      "title": "Selected",
+      "type": "boolean"
+    },
+    "selection_reason": {
+      "default": "Awaiting source audit",
+      "title": "Selection Reason",
+      "type": "string"
+    },
+    "synthetic": {
+      "default": false,
+      "title": "Synthetic",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "office",
+    "state",
+    "state_fips",
+    "boundary_version"
+  ],
+  "title": "Race",
+  "type": "object"
+}

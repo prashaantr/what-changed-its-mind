@@ -1,0 +1,1154 @@
+{
+  "races": [
+    {
+      "id": "NC-SEN-2026",
+      "name": "North Carolina US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "NC",
+      "state_fips": "37",
+      "district": null,
+      "seat": "class-2",
+      "boundary_version": "Census state reference, state-wide Senate seat",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "nc-sen-2026-michael-dublin",
+          "name": "Michael Dublin",
+          "party": "GRE",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "nc-sen-2026-michael-whatley",
+          "name": "Michael Whatley",
+          "party": "REP",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "nc-sen-2026-roy-cooper",
+          "name": "Roy Cooper",
+          "party": "DEM",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "nc-sen-2026-shannon-w-bray",
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "incumbent": null,
+          "fec_id": null
+        }
+      ],
+      "rating": null,
+      "rating_source_id": null,
+      "source_ids": [
+        "ncsbe-candidate-list-2026",
+        "census-state-codes"
+      ],
+      "selected": false,
+      "selection_reason": "Real integration/reference race. Current primary-source Toss-up/Lean rating not acquired; excluded from forecast cohort.",
+      "synthetic": false
+    },
+    {
+      "id": "TX-SEN-2026",
+      "name": "Texas US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "TX",
+      "state_fips": "48",
+      "district": null,
+      "seat": "class-2",
+      "boundary_version": "Census state reference, state-wide Senate seat",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "tx-sen-2026-avery-ayers",
+          "name": "Avery Ayers",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-bradford-brad-hall",
+          "name": "Bradford \"Brad\" Hall",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-jade-simmons",
+          "name": "Jade Simmons",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-james-talarico",
+          "name": "James Talarico",
+          "party": "DEM",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-ken-paxton",
+          "name": "Ken Paxton",
+          "party": "REP",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-ted-brown",
+          "name": "Ted Brown",
+          "party": "LIB",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "tx-sen-2026-zul-mohamed",
+          "name": "Zul Mohamed",
+          "party": "WRITE-IN",
+          "incumbent": null,
+          "fec_id": null
+        }
+      ],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "texas-ballot-2026",
+        "texas-writeins-2026",
+        "census-state-codes",
+        "crystal-ball-oct27"
+      ],
+      "selected": true,
+      "selection_reason": "Verified official roster incl declared write-ins and primary publisher Toss-up rating; eligible partial-cohort pilot, not complete30-race cohort.",
+      "synthetic": false
+    },
+    {
+      "id": "IA-SEN-2026",
+      "name": "Iowa US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "IA",
+      "state_fips": "19",
+      "district": null,
+      "seat": null,
+      "boundary_version": "Census state reference; statewide Senate contest verified by official county election notice",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "ia-sen-2026-josh-turek",
+          "name": "Josh Turek",
+          "party": "DEM",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "ia-sen-2026-ashley-hinson",
+          "name": "Ashley Hinson",
+          "party": "REP",
+          "incumbent": null,
+          "fec_id": null
+        },
+        {
+          "id": "ia-sen-2026-thomas-laehn",
+          "name": "Thomas Laehn",
+          "party": "LIB",
+          "incumbent": null,
+          "fec_id": null
+        }
+      ],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "crystal-ball-oct27",
+        "keokuk-ia-ballot-2026",
+        "census-state-codes"
+      ],
+      "selected": true,
+      "selection_reason": "Verified official statewide Senate ballot nominees, Census state geography and primary Toss-up rating; partial pilot cohort. Unlisted write-in winners resolve through OTHER_WINNER.",
+      "synthetic": false
+    },
+    {
+      "id": "KS-SEN-2026",
+      "name": "Kansas US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "KS",
+      "state_fips": "20",
+      "district": null,
+      "seat": null,
+      "boundary_version": "Census state reference; statewide Senate contest verified by official county election notice",
+      "geography_verified": true,
+      "roster_verified": true,
+      "candidates": [
+        {
+          "id": "ks-sen-2026-adam-hamilton",
+          "name": "Adam Hamilton",
+          "party": "DEM",
+          "incumbent": false,
+          "fec_id": null
+        },
+        {
+          "id": "ks-sen-2026-david-c-graham",
+          "name": "David C. Graham",
+          "party": "LIB",
+          "incumbent": false,
+          "fec_id": null
+        },
+        {
+          "id": "ks-sen-2026-roger-marshall",
+          "name": "Roger Marshall",
+          "party": "REP",
+          "incumbent": true,
+          "fec_id": null
+        }
+      ],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "crystal-ball-oct27",
+        "johnson-ks-ballot-2026",
+        "census-state-codes"
+      ],
+      "selected": true,
+      "selection_reason": "Verified official statewide Senate ballot nominees, Census state geography and primary Toss-up rating; partial pilot cohort. Unlisted write-in winners resolve through OTHER_WINNER.",
+      "synthetic": false
+    },
+    {
+      "id": "ME-SEN-2026",
+      "name": "Maine US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "ME",
+      "state_fips": "23",
+      "district": null,
+      "seat": null,
+      "boundary_version": "pending official election geography verification",
+      "geography_verified": false,
+      "roster_verified": false,
+      "candidates": [],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "crystal-ball-oct27"
+      ],
+      "selected": false,
+      "selection_reason": "Verified rating metadata only. Candidate roster and election geography pending; excluded from cohort and inference.",
+      "synthetic": false
+    },
+    {
+      "id": "OH-SEN-2026",
+      "name": "Ohio US Senate",
+      "cycle": 2026,
+      "office": "senate",
+      "state": "OH",
+      "state_fips": "39",
+      "district": null,
+      "seat": null,
+      "boundary_version": "pending official election geography verification",
+      "geography_verified": false,
+      "roster_verified": false,
+      "candidates": [],
+      "rating": "Toss-up",
+      "rating_source_id": "crystal-ball-oct27",
+      "source_ids": [
+        "crystal-ball-oct27"
+      ],
+      "selected": false,
+      "selection_reason": "Verified rating metadata only. Candidate roster and election geography pending; excluded from cohort and inference.",
+      "synthetic": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "keokuk-ia-ballot-2026",
+      "url": "https://keokukcounty.iowa.gov/news/2026_general_election/7118/",
+      "publisher": "Keokuk County Auditor, Iowa",
+      "kind": "official_roster",
+      "title": "2026 General Election official notice",
+      "attribution": "Keokuk County Auditor, October14,2026",
+      "rights_url": null,
+      "rights_basis": "Independently worded factual records and numeric extracts only; no full article, image or publisher prose licensed or exported.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Official county election authority documents statewide Senate nominees; no personal contact fields exported.",
+      "synthetic": false
+    },
+    {
+      "id": "johnson-ks-ballot-2026",
+      "url": "https://www.jocoelection.org/candidates-elected-officials/candidates?field_election_reference_target_id=6023&field_office_jurisdiction_target_id_1=All&field_office_level_target_id_1=All",
+      "publisher": "Johnson County Election Office, Kansas",
+      "kind": "official_roster",
+      "title": "November3,2026 general election candidates",
+      "attribution": "Johnson County Election Office",
+      "rights_url": null,
+      "rights_basis": "Independently worded factual records and numeric extracts only; no full article, image or publisher prose licensed or exported.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Official county election authority documents statewide Senate nominees; no personal contact fields exported.",
+      "synthetic": false
+    },
+    {
+      "id": "marist-ia-2026-10-15",
+      "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+      "publisher": "Marist Poll",
+      "kind": "poll",
+      "title": "2026 Midterm Elections in Iowa, October2026",
+      "attribution": "Marist Poll, October15,2026",
+      "rights_url": null,
+      "rights_basis": "Independently worded factual records and numeric extracts only; no full article, image or publisher prose licensed or exported.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Retain explicit poll sponsorship and dated reporting context; no inferred causal effect.",
+      "synthetic": false
+    },
+    {
+      "id": "ipr-ia-debate-2026-10-08",
+      "url": "https://www.iowapublicradio.org/political-news/2026-10-08/u-s-senate-debate-ashley-hinson-josh-turek",
+      "publisher": "Iowa Public Radio",
+      "kind": "local_reporting",
+      "title": "U.S. Senate candidates discuss Iran war, affordability and defend voting records in debate",
+      "attribution": "Natalie Krebs, Iowa Public Radio, October8,2026",
+      "rights_url": null,
+      "rights_basis": "Independently worded factual records and numeric extracts only; no full article, image or publisher prose licensed or exported.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Retain explicit poll sponsorship and dated reporting context; no inferred causal effect.",
+      "synthetic": false
+    },
+    {
+      "id": "redbox-ks-2026-10-25",
+      "url": "https://afightworthhaving.com/polling/2026/kansas",
+      "publisher": "RedBox Research / A Fight Worth Having",
+      "kind": "poll",
+      "title": "Kansas statewide poll, October2026",
+      "attribution": "RedBox Research; sponsored by A Fight Worth Having super PAC, October25,2026",
+      "rights_url": null,
+      "rights_basis": "Independently worded factual records and numeric extracts only; no full article, image or publisher prose licensed or exported.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Retain explicit poll sponsorship and dated reporting context; no inferred causal effect.",
+      "synthetic": false
+    },
+    {
+      "id": "kcur-ks-debate-2026-10-21",
+      "url": "https://www.kcur.org/politics-elections-and-government/2026-10-21/control-of-the-senate-goes-through-kansas-marshall-and-hamilton-clash-at-last-debate",
+      "publisher": "KCUR",
+      "kind": "local_reporting",
+      "title": "Marshall and Hamilton clash at last debate",
+      "attribution": "KCUR, October21,2026",
+      "rights_url": null,
+      "rights_basis": "Independently worded factual records and numeric extracts only; no full article, image or publisher prose licensed or exported.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Retain explicit poll sponsorship and dated reporting context; no inferred causal effect.",
+      "synthetic": false
+    },
+    {
+      "id": "fec-federal-elections-2020",
+      "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf",
+      "publisher": "Federal Election Commission",
+      "kind": "official_prior_results",
+      "title": "Federal Elections2020",
+      "attribution": "Federal Election Commission, October2022, 2020 U.S. Senate Results",
+      "rights_url": null,
+      "rights_basis": "US federal government publication of official election results; factual vote counts and percentages.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Prior2020 class2 Senate contests; historical candidates remain separate from2026 candidate IDs. Fixed14MB cap for this12.53MB federal PDF.",
+      "synthetic": false
+    },
+    {
+      "id": "tribune-tx-debates-2026-10-07",
+      "url": "https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/",
+      "publisher": "The Texas Tribune",
+      "kind": "local_reporting",
+      "title": "Most Texas Republicans ignore Democratic calls to debate in statewide races",
+      "attribution": "Kayla Guo, The Texas Tribune, October 7, 2026",
+      "rights_url": "https://www.texastribune.org/republishing-guidelines/",
+      "rights_basis": "Original independently worded factual event records only, with attribution and link; no article text or photographs republished. Publisher separately permits article republication under its guidelines.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Historical report as of October7; no assumption its debate status remains current.",
+      "synthetic": false
+    },
+    {
+      "id": "crystal-ball-oct27",
+      "url": "https://sabatoscrystalball.substack.com/p/democrats-appear-to-hold-narrow-senate",
+      "publisher": "Sabato's Crystal Ball / UVA Center for Politics",
+      "kind": "race_rating",
+      "title": "Democrats Appear to Hold Narrow Senate Edge with Week to Go",
+      "attribution": "Sabato's Crystal Ball, Kyle Kondik and J. Miles Coleman, October 27, 2026",
+      "rights_url": null,
+      "rights_basis": "Derived factual records only. Full publisher page is retained locally, not licensed by this project.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Export discrete rating facts only; full article stays local. Current main rating pages return403.",
+      "synthetic": false
+    },
+    {
+      "id": "texas-ballot-2026",
+      "url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
+      "publisher": "Texas Secretary of State",
+      "kind": "official_roster",
+      "title": "2026 General Election Ballot Certification",
+      "attribution": "Texas Secretary of State, August28,2026",
+      "rights_url": null,
+      "rights_basis": "Derived public candidate facts only",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "",
+      "synthetic": false
+    },
+    {
+      "id": "texas-writeins-2026",
+      "url": "https://www.sos.state.tx.us/elections/forms/2026-write-In-ballot-cert.pdf",
+      "publisher": "Texas Secretary of State",
+      "kind": "official_roster",
+      "title": "2026 Declared Write-In Candidate Certification",
+      "attribution": "Texas Secretary of State, August28,2026",
+      "rights_url": null,
+      "rights_basis": "Derived public candidate facts only",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "",
+      "synthetic": false
+    },
+    {
+      "id": "marist-tx-2026-10-14",
+      "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/",
+      "publisher": "Marist Poll",
+      "kind": "poll",
+      "title": "2026 Midterm Elections in Texas, October2026",
+      "attribution": "Marist Poll, October14,2026",
+      "rights_url": null,
+      "rights_basis": "Derived factual records only. Full publisher page is retained locally, not licensed by this project.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "LV toplines;1196 is RV sample, LV sample unavailable in article. No fabricated LV count.",
+      "synthetic": false
+    },
+    {
+      "id": "ncsbe-candidate-list-2026",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/Candidate_Listing_2026.csv",
+      "publisher": "North Carolina State Board of Elections",
+      "kind": "official_roster",
+      "title": "2026 Candidate List CSV",
+      "attribution": "North Carolina State Board of Elections",
+      "rights_url": "https://www.ncsbe.gov/results-data/candidate-lists",
+      "rights_basis": "Official public candidate list; only candidate names, party and contest facts exported; contact fields discarded.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "",
+      "synthetic": false
+    },
+    {
+      "id": "census-state-codes",
+      "url": "https://www2.census.gov/geo/docs/reference/state.txt",
+      "publisher": "US Census Bureau",
+      "kind": "geography",
+      "title": "State FIPS and ANSI codes",
+      "attribution": "US Census Bureau",
+      "rights_url": "https://www.census.gov/about/policies/privacy/privacy-policy.html",
+      "rights_basis": "US federal government factual geography reference.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "",
+      "synthetic": false
+    },
+    {
+      "id": "ecu-nc-poll-2026-10-08",
+      "url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-s-lead-holds-at-7-points",
+      "publisher": "ECU Center for Survey Research",
+      "kind": "poll",
+      "title": "ECU Poll: Cooper's Lead Holds at 7 Points",
+      "attribution": "ECU Center for Survey Research, October 8, 2026",
+      "rights_url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-s-lead-holds-at-7-points",
+      "rights_basis": "Derived factual records only. Full publisher page is retained locally, not licensed by this project.",
+      "storage": "allowed",
+      "model_use": "allowed",
+      "redistribution": "allowed",
+      "published_at": null,
+      "notes": "Rights allowed for manually specified factual numeric extracts only. Full release not public-exported. Publication day known; observation published_at left null because exact time not stated.",
+      "synthetic": false
+    },
+    {
+      "id": "crystal-ball-senate-2026",
+      "url": "https://centerforpolitics.org/crystalball/2026-senate/",
+      "publisher": "UVA Center for Politics",
+      "kind": "race_rating",
+      "title": "Crystal Ball 2026 Senate ratings",
+      "attribution": "Sabato's Crystal Ball, UVA Center for Politics",
+      "rights_url": null,
+      "rights_basis": "Access and redistribution not established; do not infer current ratings.",
+      "storage": "unknown",
+      "model_use": "unknown",
+      "redistribution": "unknown",
+      "published_at": null,
+      "notes": "Cohort eligibility blocked until actual primary-source rating acquired.",
+      "synthetic": false
+    },
+    {
+      "id": "crystal-ball-house-2026",
+      "url": "https://centerforpolitics.org/crystalball/2026-house/",
+      "publisher": "UVA Center for Politics",
+      "kind": "race_rating",
+      "title": "Crystal Ball 2026 House ratings",
+      "attribution": "Sabato's Crystal Ball, UVA Center for Politics",
+      "rights_url": null,
+      "rights_basis": "Access and redistribution not established; do not infer current ratings.",
+      "storage": "unknown",
+      "model_use": "unknown",
+      "redistribution": "unknown",
+      "published_at": null,
+      "notes": "",
+      "synthetic": false
+    },
+    {
+      "id": "engagious-deciders-2026",
+      "url": "https://engagious.com/2026deciders/",
+      "publisher": "Engagious / Sago / Syracuse IDJC",
+      "kind": "focus_group",
+      "title": "2026 Deciders sessions",
+      "attribution": "Engagious / Sago / Syracuse IDJC; https://engagious.com/swingvoters/",
+      "rights_url": "https://engagious.com/2026deciders/",
+      "rights_basis": "Page includes reuse language referring to swing voter study; scope for full Deciders transcripts/media unresolved.",
+      "storage": "allowed",
+      "model_use": "unknown",
+      "redistribution": "unknown",
+      "published_at": null,
+      "notes": "Discovery metadata only. Video existence does not imply verified transcript, participant counts or representative sample.",
+      "synthetic": false
+    }
+  ],
+  "acquisitions": [
+    {
+      "id": "acq-keokuk-ia-ballot-2026-810d1d205ea6",
+      "source_id": "keokuk-ia-ballot-2026",
+      "retrieved_at": "2026-10-28T06:14:43.337967Z",
+      "raw_sha256": "810d1d205ea6d80d6f6dc6bb209e1e5228b98f983edbae72b360703551f419cd",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://keokukcounty.iowa.gov/news/2026_general_election/7118/"
+    },
+    {
+      "id": "acq-johnson-ks-ballot-2026-ab1992481fdd",
+      "source_id": "johnson-ks-ballot-2026",
+      "retrieved_at": "2026-10-28T06:14:43.832294Z",
+      "raw_sha256": "ab1992481fdd03336d8b797815872dd85bf6f4e239122b54c3c1b79e419d91a4",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.jocoelection.org/candidates-elected-officials/candidates?field_election_reference_target_id=6023&field_office_jurisdiction_target_id_1=All&field_office_level_target_id_1=All"
+    },
+    {
+      "id": "acq-marist-ia-2026-10-15-955935717ca3",
+      "source_id": "marist-ia-2026-10-15",
+      "retrieved_at": "2026-10-28T06:14:44.119924Z",
+      "raw_sha256": "955935717ca385b09581280bad2b359ecfa538429e0791cf8f80c4143e58f6f0",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/"
+    },
+    {
+      "id": "acq-ipr-ia-debate-2026-10-08-8841ccc9998f",
+      "source_id": "ipr-ia-debate-2026-10-08",
+      "retrieved_at": "2026-10-28T06:14:44.217557Z",
+      "raw_sha256": "8841ccc9998ff872ae5e0e4aff60e93cd39b3a9ab777496ecd2a6477d2acdb78",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.iowapublicradio.org/political-news/2026-10-08/u-s-senate-debate-ashley-hinson-josh-turek"
+    },
+    {
+      "id": "acq-redbox-ks-2026-10-25-0c5fbe63b289",
+      "source_id": "redbox-ks-2026-10-25",
+      "retrieved_at": "2026-10-28T06:14:44.525238Z",
+      "raw_sha256": "0c5fbe63b289d623af7584a99f9d01c4eb9c6a14aac642f93ac7f81f74139c10",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://afightworthhaving.com/polling/2026/kansas"
+    },
+    {
+      "id": "acq-kcur-ks-debate-2026-10-21-c56fc4161460",
+      "source_id": "kcur-ks-debate-2026-10-21",
+      "retrieved_at": "2026-10-28T06:14:44.625790Z",
+      "raw_sha256": "c56fc41614605b6775a7c47f9681df5deef7677716b1a0a94f647aa52f1bb60e",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.kcur.org/politics-elections-and-government/2026-10-21/control-of-the-senate-goes-through-kansas-marshall-and-hamilton-clash-at-last-debate"
+    },
+    {
+      "id": "acq-fec-federal-elections-2020-e4e6d5efd911",
+      "source_id": "fec-federal-elections-2020",
+      "retrieved_at": "2026-10-28T06:20:28.233724Z",
+      "raw_sha256": "e4e6d5efd911ff02bffffb47180d05278f98a07655bd390d078904f545d12836",
+      "media_type": "application/pdf",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf"
+    },
+    {
+      "id": "acq-tribune-tx-debates-2026-10-07-bcbb77cdb9b4",
+      "source_id": "tribune-tx-debates-2026-10-07",
+      "retrieved_at": "2026-10-28T06:07:48.468442Z",
+      "raw_sha256": "bcbb77cdb9b4ec369eb4f03bda5faeda8a214b4d90fed55d6becbaedae98644e",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/"
+    },
+    {
+      "id": "acq-crystal-ball-oct27-554e8cd6660d",
+      "source_id": "crystal-ball-oct27",
+      "retrieved_at": "2026-10-28T06:07:48.556422Z",
+      "raw_sha256": "554e8cd6660dae95c385f35999d13ddbcf893202597046b36ed7d29a8b991171",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://sabatoscrystalball.substack.com/p/democrats-appear-to-hold-narrow-senate"
+    },
+    {
+      "id": "acq-texas-ballot-2026-c13ffb4ebeee",
+      "source_id": "texas-ballot-2026",
+      "retrieved_at": "2026-10-28T06:07:50.498666Z",
+      "raw_sha256": "c13ffb4ebeee389fa9818d47b31f77b4e260ea6e6f5389cb7bf0f36d9b44d87c",
+      "media_type": "application/pdf",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf"
+    },
+    {
+      "id": "acq-texas-writeins-2026-eece7f9fa38c",
+      "source_id": "texas-writeins-2026",
+      "retrieved_at": "2026-10-28T06:07:50.690946Z",
+      "raw_sha256": "eece7f9fa38c65eef150d62ba0a142672dc187b7feb2f90bc330f9c5a226aa24",
+      "media_type": "application/pdf",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www.sos.state.tx.us/elections/forms/2026-write-In-ballot-cert.pdf"
+    },
+    {
+      "id": "acq-marist-tx-2026-10-14-a6f8d7c55f0d",
+      "source_id": "marist-tx-2026-10-14",
+      "retrieved_at": "2026-10-28T06:07:51.095849Z",
+      "raw_sha256": "a6f8d7c55f0d4d440f14dcd42c12c536a0b4456e27c2ca1de1a4c4149463c545",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/"
+    },
+    {
+      "id": "acq-ncsbe-candidate-list-2026-2f1c1b932dff",
+      "source_id": "ncsbe-candidate-list-2026",
+      "retrieved_at": "2026-10-28T06:07:52.344451Z",
+      "raw_sha256": "2f1c1b932dff920bc690c3e5fc1813ff4389cb5a28ef0b99d4bb06c9fef09cbe",
+      "media_type": "binary/octet-stream",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/Candidate_Listing_2026.csv"
+    },
+    {
+      "id": "acq-census-state-codes-bea4e03f71a1",
+      "source_id": "census-state-codes",
+      "retrieved_at": "2026-10-28T06:07:52.644862Z",
+      "raw_sha256": "bea4e03f71a1fa0045ae732aabad11fa541e5932b071c2369bb0d325e8cba5a0",
+      "media_type": "text/plain",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://www2.census.gov/geo/docs/reference/state.txt"
+    },
+    {
+      "id": "acq-ecu-nc-poll-2026-10-08-07f0bb1d382d",
+      "source_id": "ecu-nc-poll-2026-10-08",
+      "retrieved_at": "2026-10-28T06:07:53.186996Z",
+      "raw_sha256": "07f0bb1d382dde9401af43574c6b23efad64add466b5e95327677389f0a96422",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-s-lead-holds-at-7-points"
+    },
+    {
+      "id": "acq-engagious-deciders-2026-df325b21df43",
+      "source_id": "engagious-deciders-2026",
+      "retrieved_at": "2026-10-28T06:07:53.627994Z",
+      "raw_sha256": "df325b21df4391c7b6313021eb6d2df23bf29947a3c275ba756d13c847e41bdd",
+      "media_type": "text/html",
+      "parser_version": "collection-1",
+      "http_status": 200,
+      "final_url": "https://engagious.com/2026deciders/"
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs-ecu-nc-2026-10-08",
+      "source_id": "ecu-nc-poll-2026-10-08",
+      "acquisition_id": "acq-ecu-nc-poll-2026-10-08-07f0bb1d382d",
+      "race_id": "NC-SEN-2026",
+      "candidate_id": null,
+      "kind": "poll",
+      "value": {
+        "pollster": "East Carolina University Center for Survey Research",
+        "sample_size": 810,
+        "population": "LV",
+        "field_start": "2026-09-30",
+        "field_end": "2026-10-03",
+        "published_date": "2026-10-08",
+        "publication_time_precision": "day",
+        "shares_percent": {
+          "Roy Cooper": 50,
+          "Michael Whatley": 43
+        },
+        "undecided_percent": 6,
+        "other_percent": 2,
+        "rounding_note": "Publisher reports rounded whole percentages; categories may not sum to 100.",
+        "question_variant": "Initial preference allowing undecided; not forced-choice follow-up",
+        "mode": "MMS-to-web plus supplemental online panel",
+        "shares": {
+          "nc-sen-2026-michael-whatley": 43,
+          "nc-sen-2026-roy-cooper": 50
+        }
+      },
+      "excerpt": null,
+      "locator": "Release main topline paragraph and Methodology section",
+      "published_at": null,
+      "available_at": "2026-10-28T06:07:53.186996Z",
+      "retrieved_at": "2026-10-28T06:07:53.186996Z",
+      "content_sha256": "22ac4b88c2f2f3f34b4f6de4608e8a3508281637f9e7217d38e1e95b258a9c87",
+      "geography": "NC",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-marist-tx-2026-10-14",
+      "source_id": "marist-tx-2026-10-14",
+      "acquisition_id": "acq-marist-tx-2026-10-14-a6f8d7c55f0d",
+      "race_id": "TX-SEN-2026",
+      "candidate_id": null,
+      "kind": "poll",
+      "value": {
+        "pollster": "Marist Poll",
+        "population": "LV",
+        "sample_size": null,
+        "sample_size_note": "1196 registered voters; likely-voter subgroup sample not given in publisher article",
+        "field_start": "2026-10-08",
+        "field_end": "2026-10-11",
+        "published_date": "2026-10-14",
+        "publication_time_precision": "day",
+        "shares": {
+          "tx-sen-2026-james-talarico": 47,
+          "tx-sen-2026-ken-paxton": 45
+        },
+        "unallocated_percent": 8,
+        "unallocated_note": "Residual only; article does not disaggregate undecided versus other candidates",
+        "mode": "phone, text, online",
+        "margin_of_error_percentage_points": 4.9
+      },
+      "excerpt": null,
+      "locator": "U.S. Senate Race in Texas and Methodology sections",
+      "published_at": null,
+      "available_at": "2026-10-28T06:07:51.095849Z",
+      "retrieved_at": "2026-10-28T06:07:51.095849Z",
+      "content_sha256": "fd086960ec645af5b4303bb1e24a18d26c31fe4d7b54c40672195fbea3ce22c3",
+      "geography": "TX",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-tribune-tx-debates-2026-10-07",
+      "source_id": "tribune-tx-debates-2026-10-07",
+      "acquisition_id": "acq-tribune-tx-debates-2026-10-07-bcbb77cdb9b4",
+      "race_id": "TX-SEN-2026",
+      "candidate_id": null,
+      "kind": "local_reporting",
+      "value": {
+        "published_date": "2026-10-07",
+        "publication_time_precision": "day",
+        "as_of_date": "2026-10-07",
+        "reporting_type": "independent local reporting",
+        "facts": [
+          {
+            "subject": "Ken Paxton",
+            "event": "The report found no accepted Senate debate invitation as of its publication; his campaign had not answered the reporter's repeated requests for comment."
+          },
+          {
+            "subject": "James Talarico",
+            "event": "The report documented acceptance of at least four debate invitations from CNN and local television stations."
+          }
+        ],
+        "scope_note": "Facts reflect this dated article, not a verified current debate status. No electoral effect is inferred."
+      },
+      "excerpt": null,
+      "locator": "Opening four paragraphs of Kayla Guo's October7 report; Senate facts only",
+      "published_at": null,
+      "available_at": "2026-10-28T06:07:48.468442Z",
+      "retrieved_at": "2026-10-28T06:07:48.468442Z",
+      "content_sha256": "d0541737942002e4cca227212ca8e0d2fae3026f804c22f54fab9df1b69294ec",
+      "geography": "TX",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-marist-ia-2026-10-15",
+      "source_id": "marist-ia-2026-10-15",
+      "acquisition_id": "acq-marist-ia-2026-10-15-955935717ca3",
+      "race_id": "IA-SEN-2026",
+      "candidate_id": null,
+      "kind": "poll",
+      "value": {
+        "pollster": "Marist Poll",
+        "population": "LV",
+        "field_start": "2026-10-08",
+        "field_end": "2026-10-11",
+        "published_date": "2026-10-15",
+        "sample_size": null,
+        "sample_size_note": "1100 is registered-voter sample; likely-voter subgroup sample not provided in article",
+        "margin_of_error_percentage_points": 6.6,
+        "mode": "phone, text, online",
+        "shares": {
+          "ia-sen-2026-josh-turek": 48,
+          "ia-sen-2026-ashley-hinson": 45
+        },
+        "publication_time_precision": "day",
+        "unallocated_percent": 7,
+        "unallocated_note": "Residual; no invented split among other candidate and undecided"
+      },
+      "excerpt": null,
+      "locator": "Publisher Senate toplines and methodology",
+      "published_at": null,
+      "available_at": "2026-10-28T06:14:44.119924Z",
+      "retrieved_at": "2026-10-28T06:14:44.119924Z",
+      "content_sha256": "65d08d9764da9352a33c3c95f0ebbcceb565ed4ea2b875a4fb5cfeada872585f",
+      "geography": "IA",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-ipr-ia-debate-2026-10-08",
+      "source_id": "ipr-ia-debate-2026-10-08",
+      "acquisition_id": "acq-ipr-ia-debate-2026-10-08-8841ccc9998f",
+      "race_id": "IA-SEN-2026",
+      "candidate_id": null,
+      "kind": "local_reporting",
+      "value": {
+        "published_date": "2026-10-08",
+        "publication_time_precision": "day",
+        "as_of_date": "2026-10-08",
+        "reporting_type": "independent local reporting",
+        "facts": [
+          {
+            "subject": "Ashley Hinson",
+            "event": "At the October7 Iowa PBS debate, she defended opposing a resolution limiting the president's powers in Iran."
+          },
+          {
+            "subject": "Josh Turek",
+            "event": "At the same debate, he advocated ending the war and returning to diplomacy."
+          },
+          {
+            "subject": "Thomas Laehn",
+            "event": "The report identified him as a ballot candidate who did not participate in this debate."
+          }
+        ],
+        "scope_note": "Dated reported positions, not endorsements, verified policy effects or representative voter opinion."
+      },
+      "excerpt": null,
+      "locator": "Dated debate reporting, candidate positions and participation paragraphs",
+      "published_at": null,
+      "available_at": "2026-10-28T06:14:44.217557Z",
+      "retrieved_at": "2026-10-28T06:14:44.217557Z",
+      "content_sha256": "df921356564922b3425f11eab1f046958bf6dd4d14388981e612be3d3bd9a225",
+      "geography": "IA",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-redbox-ks-2026-10-25",
+      "source_id": "redbox-ks-2026-10-25",
+      "acquisition_id": "acq-redbox-ks-2026-10-25-0c5fbe63b289",
+      "race_id": "KS-SEN-2026",
+      "candidate_id": null,
+      "kind": "poll",
+      "value": {
+        "pollster": "RedBox Research",
+        "sponsor": "A Fight Worth Having super PAC (FEC C00933085)",
+        "sponsor_note": "Poll conducted by sponsor's own polling unit; not independent nonpartisan sponsorship",
+        "population": "LV",
+        "field_start": "2026-10-20",
+        "field_end": "2026-10-23",
+        "published_date": "2026-10-25",
+        "sample_size": 1301,
+        "margin_of_error_percentage_points": 3.2,
+        "mode": "text invitation to self-administered web survey",
+        "undecided_percent": 3.7,
+        "other_percent": 1.3,
+        "prefer_not_answer_percent": 1.0,
+        "did_not_vote_in_race_percent": 0.4,
+        "shares": {
+          "ks-sen-2026-adam-hamilton": 45.0,
+          "ks-sen-2026-david-c-graham": 3.0,
+          "ks-sen-2026-roger-marshall": 45.7
+        },
+        "publication_time_precision": "day"
+      },
+      "excerpt": null,
+      "locator": "Publisher Senate toplines and methodology",
+      "published_at": null,
+      "available_at": "2026-10-28T06:14:44.525238Z",
+      "retrieved_at": "2026-10-28T06:14:44.525238Z",
+      "content_sha256": "8775d5bb06f2e67e0803e76fb8f262b55a6d1ed1ef92b3294882d4d5ff58c49c",
+      "geography": "KS",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-kcur-ks-debate-2026-10-21",
+      "source_id": "kcur-ks-debate-2026-10-21",
+      "acquisition_id": "acq-kcur-ks-debate-2026-10-21-c56fc4161460",
+      "race_id": "KS-SEN-2026",
+      "candidate_id": null,
+      "kind": "local_reporting",
+      "value": {
+        "published_date": "2026-10-21",
+        "publication_time_precision": "day",
+        "as_of_date": "2026-10-21",
+        "reporting_type": "independent local reporting",
+        "facts": [
+          {
+            "subject": "Roger Marshall",
+            "event": "At the October21 debate, he supported continuing President Trump's agenda and defended tariffs as helping bring jobs to the US."
+          },
+          {
+            "subject": "Adam Hamilton",
+            "event": "At the same debate, he criticized broad tariffs and associated uncertainty for businesses."
+          }
+        ],
+        "scope_note": "Dated reported positions, not endorsements, verified policy effects or representative voter opinion."
+      },
+      "excerpt": null,
+      "locator": "Dated debate reporting, candidate positions and participation paragraphs",
+      "published_at": null,
+      "available_at": "2026-10-28T06:14:44.625790Z",
+      "retrieved_at": "2026-10-28T06:14:44.625790Z",
+      "content_sha256": "3092e4111b7593111fc08acb3e1ced87a711bfed50e0113deadc1603b92d4dc8",
+      "geography": "KS",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-fec-2020-senate-ia",
+      "source_id": "fec-federal-elections-2020",
+      "acquisition_id": "acq-fec-federal-elections-2020-e4e6d5efd911",
+      "race_id": "IA-SEN-2026",
+      "candidate_id": null,
+      "kind": "fundamental",
+      "value": {
+        "measure": "previous_same_seat_senate_general_election",
+        "election_date": "2020-11-03",
+        "election_cycle": 2020,
+        "publication_month": "2022-10",
+        "publication_time_precision": "month",
+        "office": "senate",
+        "state": "IA",
+        "candidates": [
+          {
+            "name": "Ernst, Joni",
+            "party": "REP",
+            "votes": 864997,
+            "reported_vote_share_percent": 51.74
+          },
+          {
+            "name": "Greenfield, Theresa",
+            "party": "DEM",
+            "votes": 754859,
+            "reported_vote_share_percent": 45.15
+          },
+          {
+            "name": "Stewart, Rick",
+            "party": "LIB",
+            "votes": 36961,
+            "reported_vote_share_percent": 2.21
+          },
+          {
+            "name": "Herzog, Suzanne",
+            "party": "NPY",
+            "votes": 13800,
+            "reported_vote_share_percent": 0.83
+          },
+          {
+            "name": "Scattered",
+            "party": "WRITE-IN",
+            "votes": 1211,
+            "reported_vote_share_percent": 0.07
+          }
+        ],
+        "total_votes": 1671828,
+        "comparability_note": "Same statewide class2 Senate seat; historical2020 candidates and presidential-year turnout differ from2026. These votes are context, not a2026 prediction or certified2026 outcome."
+      },
+      "excerpt": null,
+      "locator": "2020 U.S. Senate Results, IA general-election column; printed pages74\u201375 (IA/KS),82 (TX)",
+      "published_at": null,
+      "available_at": "2026-10-28T06:20:28.233724Z",
+      "retrieved_at": "2026-10-28T06:20:28.233724Z",
+      "content_sha256": "dd405ce77b6fdeedea8bacfb1c845d40905b383e4a08d62294fdfaa6a6b48bc2",
+      "geography": "IA",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-fec-2020-senate-ks",
+      "source_id": "fec-federal-elections-2020",
+      "acquisition_id": "acq-fec-federal-elections-2020-e4e6d5efd911",
+      "race_id": "KS-SEN-2026",
+      "candidate_id": null,
+      "kind": "fundamental",
+      "value": {
+        "measure": "previous_same_seat_senate_general_election",
+        "election_date": "2020-11-03",
+        "election_cycle": 2020,
+        "publication_month": "2022-10",
+        "publication_time_precision": "month",
+        "office": "senate",
+        "state": "KS",
+        "candidates": [
+          {
+            "name": "Marshall, Roger",
+            "party": "REP",
+            "votes": 727962,
+            "reported_vote_share_percent": 53.22
+          },
+          {
+            "name": "Bollier, Barbara",
+            "party": "DEM",
+            "votes": 571530,
+            "reported_vote_share_percent": 41.79
+          },
+          {
+            "name": "Buckley, Jason",
+            "party": "LIB",
+            "votes": 68263,
+            "reported_vote_share_percent": 4.99
+          }
+        ],
+        "total_votes": 1367755,
+        "comparability_note": "Same statewide class2 Senate seat; historical2020 candidates and presidential-year turnout differ from2026. These votes are context, not a2026 prediction or certified2026 outcome."
+      },
+      "excerpt": null,
+      "locator": "2020 U.S. Senate Results, KS general-election column; printed pages74\u201375 (IA/KS),82 (TX)",
+      "published_at": null,
+      "available_at": "2026-10-28T06:20:28.233724Z",
+      "retrieved_at": "2026-10-28T06:20:28.233724Z",
+      "content_sha256": "ac67e2dcc4595c111415f4fdb58c630c0304e98035fd5d5dfca86fc6547b8bab",
+      "geography": "KS",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    },
+    {
+      "id": "obs-fec-2020-senate-tx",
+      "source_id": "fec-federal-elections-2020",
+      "acquisition_id": "acq-fec-federal-elections-2020-e4e6d5efd911",
+      "race_id": "TX-SEN-2026",
+      "candidate_id": null,
+      "kind": "fundamental",
+      "value": {
+        "measure": "previous_same_seat_senate_general_election",
+        "election_date": "2020-11-03",
+        "election_cycle": 2020,
+        "publication_month": "2022-10",
+        "publication_time_precision": "month",
+        "office": "senate",
+        "state": "TX",
+        "candidates": [
+          {
+            "name": "Cornyn, John",
+            "party": "REP",
+            "votes": 5962983,
+            "reported_vote_share_percent": 53.51
+          },
+          {
+            "name": "Hegar, Mary \"MJ\"",
+            "party": "DEM",
+            "votes": 4888764,
+            "reported_vote_share_percent": 43.87
+          },
+          {
+            "name": "McKennon, Kerry Douglas",
+            "party": "LIB",
+            "votes": 209722,
+            "reported_vote_share_percent": 1.88
+          },
+          {
+            "name": "Collins, David B.",
+            "party": "GRE",
+            "votes": 81893,
+            "reported_vote_share_percent": 0.73
+          },
+          {
+            "name": "Turullols-Bonilla, Ricardo",
+            "party": "WRITE-IN",
+            "votes": 678,
+            "reported_vote_share_percent": 0.01
+          }
+        ],
+        "total_votes": 11144040,
+        "comparability_note": "Same statewide class2 Senate seat; historical2020 candidates and presidential-year turnout differ from2026. These votes are context, not a2026 prediction or certified2026 outcome."
+      },
+      "excerpt": null,
+      "locator": "2020 U.S. Senate Results, TX general-election column; printed pages74\u201375 (IA/KS),82 (TX)",
+      "published_at": null,
+      "available_at": "2026-10-28T06:20:28.233724Z",
+      "retrieved_at": "2026-10-28T06:20:28.233724Z",
+      "content_sha256": "1c9a5f4dafec76ad5e13682adbbedfba66fac9fb4903ae8948f3625fb85b8efe",
+      "geography": "TX",
+      "geography_scope": "state",
+      "record_type": "fact",
+      "synthetic": false
+    }
+  ],
+  "synthetic": false
+}

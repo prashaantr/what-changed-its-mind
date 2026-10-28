@@ -1,0 +1,162 @@
+[
+  {
+    "id": "acq-keokuk-ia-ballot-2026-810d1d205ea6",
+    "source_id": "keokuk-ia-ballot-2026",
+    "retrieved_at": "2026-10-28T06:14:43.337967Z",
+    "raw_sha256": "810d1d205ea6d80d6f6dc6bb209e1e5228b98f983edbae72b360703551f419cd",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://keokukcounty.iowa.gov/news/2026_general_election/7118/"
+  },
+  {
+    "id": "acq-johnson-ks-ballot-2026-ab1992481fdd",
+    "source_id": "johnson-ks-ballot-2026",
+    "retrieved_at": "2026-10-28T06:14:43.832294Z",
+    "raw_sha256": "ab1992481fdd03336d8b797815872dd85bf6f4e239122b54c3c1b79e419d91a4",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.jocoelection.org/candidates-elected-officials/candidates?field_election_reference_target_id=6023&field_office_jurisdiction_target_id_1=All&field_office_level_target_id_1=All"
+  },
+  {
+    "id": "acq-marist-ia-2026-10-15-955935717ca3",
+    "source_id": "marist-ia-2026-10-15",
+    "retrieved_at": "2026-10-28T06:14:44.119924Z",
+    "raw_sha256": "955935717ca385b09581280bad2b359ecfa538429e0791cf8f80c4143e58f6f0",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/"
+  },
+  {
+    "id": "acq-ipr-ia-debate-2026-10-08-8841ccc9998f",
+    "source_id": "ipr-ia-debate-2026-10-08",
+    "retrieved_at": "2026-10-28T06:14:44.217557Z",
+    "raw_sha256": "8841ccc9998ff872ae5e0e4aff60e93cd39b3a9ab777496ecd2a6477d2acdb78",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.iowapublicradio.org/political-news/2026-10-08/u-s-senate-debate-ashley-hinson-josh-turek"
+  },
+  {
+    "id": "acq-redbox-ks-2026-10-25-0c5fbe63b289",
+    "source_id": "redbox-ks-2026-10-25",
+    "retrieved_at": "2026-10-28T06:14:44.525238Z",
+    "raw_sha256": "0c5fbe63b289d623af7584a99f9d01c4eb9c6a14aac642f93ac7f81f74139c10",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://afightworthhaving.com/polling/2026/kansas"
+  },
+  {
+    "id": "acq-kcur-ks-debate-2026-10-21-c56fc4161460",
+    "source_id": "kcur-ks-debate-2026-10-21",
+    "retrieved_at": "2026-10-28T06:14:44.625790Z",
+    "raw_sha256": "c56fc41614605b6775a7c47f9681df5deef7677716b1a0a94f647aa52f1bb60e",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.kcur.org/politics-elections-and-government/2026-10-21/control-of-the-senate-goes-through-kansas-marshall-and-hamilton-clash-at-last-debate"
+  },
+  {
+    "id": "acq-fec-federal-elections-2020-e4e6d5efd911",
+    "source_id": "fec-federal-elections-2020",
+    "retrieved_at": "2026-10-28T06:20:28.233724Z",
+    "raw_sha256": "e4e6d5efd911ff02bffffb47180d05278f98a07655bd390d078904f545d12836",
+    "media_type": "application/pdf",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf"
+  },
+  {
+    "id": "acq-tribune-tx-debates-2026-10-07-bcbb77cdb9b4",
+    "source_id": "tribune-tx-debates-2026-10-07",
+    "retrieved_at": "2026-10-28T06:07:48.468442Z",
+    "raw_sha256": "bcbb77cdb9b4ec369eb4f03bda5faeda8a214b4d90fed55d6becbaedae98644e",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/"
+  },
+  {
+    "id": "acq-crystal-ball-oct27-554e8cd6660d",
+    "source_id": "crystal-ball-oct27",
+    "retrieved_at": "2026-10-28T06:07:48.556422Z",
+    "raw_sha256": "554e8cd6660dae95c385f35999d13ddbcf893202597046b36ed7d29a8b991171",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://sabatoscrystalball.substack.com/p/democrats-appear-to-hold-narrow-senate"
+  },
+  {
+    "id": "acq-texas-ballot-2026-c13ffb4ebeee",
+    "source_id": "texas-ballot-2026",
+    "retrieved_at": "2026-10-28T06:07:50.498666Z",
+    "raw_sha256": "c13ffb4ebeee389fa9818d47b31f77b4e260ea6e6f5389cb7bf0f36d9b44d87c",
+    "media_type": "application/pdf",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf"
+  },
+  {
+    "id": "acq-texas-writeins-2026-eece7f9fa38c",
+    "source_id": "texas-writeins-2026",
+    "retrieved_at": "2026-10-28T06:07:50.690946Z",
+    "raw_sha256": "eece7f9fa38c65eef150d62ba0a142672dc187b7feb2f90bc330f9c5a226aa24",
+    "media_type": "application/pdf",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www.sos.state.tx.us/elections/forms/2026-write-In-ballot-cert.pdf"
+  },
+  {
+    "id": "acq-marist-tx-2026-10-14-a6f8d7c55f0d",
+    "source_id": "marist-tx-2026-10-14",
+    "retrieved_at": "2026-10-28T06:07:51.095849Z",
+    "raw_sha256": "a6f8d7c55f0d4d440f14dcd42c12c536a0b4456e27c2ca1de1a4c4149463c545",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/"
+  },
+  {
+    "id": "acq-ncsbe-candidate-list-2026-2f1c1b932dff",
+    "source_id": "ncsbe-candidate-list-2026",
+    "retrieved_at": "2026-10-28T06:07:52.344451Z",
+    "raw_sha256": "2f1c1b932dff920bc690c3e5fc1813ff4389cb5a28ef0b99d4bb06c9fef09cbe",
+    "media_type": "binary/octet-stream",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/Candidate_Listing_2026.csv"
+  },
+  {
+    "id": "acq-census-state-codes-bea4e03f71a1",
+    "source_id": "census-state-codes",
+    "retrieved_at": "2026-10-28T06:07:52.644862Z",
+    "raw_sha256": "bea4e03f71a1fa0045ae732aabad11fa541e5932b071c2369bb0d325e8cba5a0",
+    "media_type": "text/plain",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://www2.census.gov/geo/docs/reference/state.txt"
+  },
+  {
+    "id": "acq-ecu-nc-poll-2026-10-08-07f0bb1d382d",
+    "source_id": "ecu-nc-poll-2026-10-08",
+    "retrieved_at": "2026-10-28T06:07:53.186996Z",
+    "raw_sha256": "07f0bb1d382dde9401af43574c6b23efad64add466b5e95327677389f0a96422",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-s-lead-holds-at-7-points"
+  },
+  {
+    "id": "acq-engagious-deciders-2026-df325b21df43",
+    "source_id": "engagious-deciders-2026",
+    "retrieved_at": "2026-10-28T06:07:53.627994Z",
+    "raw_sha256": "df325b21df4391c7b6313021eb6d2df23bf29947a3c275ba756d13c847e41bdd",
+    "media_type": "text/html",
+    "parser_version": "collection-1",
+    "http_status": 200,
+    "final_url": "https://engagious.com/2026deciders/"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "snapshot_id": "initial-v1",
+  "metric": "mean unscaled multiclass Brier (0..2)",
+  "rows": [],
+  "arm_means": {},
+  "paired_B_D": [],
+  "paired_count": 0,
+  "paired_mean_difference": null,
+  "pending_races": [
+    "IA-SEN-2026",
+    "KS-SEN-2026",
+    "TX-SEN-2026"
+  ],
+  "note": "Negative D-minus-B favours qualitative evidence. Repeated snapshots are not independent outcomes.",
+  "primary": false
+}

@@ -1,0 +1,8 @@
+{
+  "dataset": "data/processed/dataset.json",
+  "snapshot": "results/snapshots/initial-v1.json",
+  "inferences": "results/forecasts/initial-v1.json",
+  "diagnostics": "results/diagnostics/initial.json",
+  "outcomes": "results/outcomes/pending-v1.json",
+  "evaluation": "results/evaluation/initial-v1-summary-v2.json"
+}

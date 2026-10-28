@@ -1,0 +1,529 @@
+{
+  "$defs": {
+    "Acquisition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "raw_sha256": {
+          "title": "Raw Sha256",
+          "type": "string"
+        },
+        "media_type": {
+          "title": "Media Type",
+          "type": "string"
+        },
+        "parser_version": {
+          "default": "1",
+          "title": "Parser Version",
+          "type": "string"
+        },
+        "http_status": {
+          "title": "Http Status",
+          "type": "integer"
+        },
+        "final_url": {
+          "title": "Final Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "retrieved_at",
+        "raw_sha256",
+        "media_type",
+        "http_status",
+        "final_url"
+      ],
+      "title": "Acquisition",
+      "type": "object"
+    },
+    "Candidate": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "party": {
+          "title": "Party",
+          "type": "string"
+        },
+        "incumbent": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Incumbent"
+        },
+        "fec_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fec Id"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "party"
+      ],
+      "title": "Candidate",
+      "type": "object"
+    },
+    "Observation": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "acquisition_id": {
+          "title": "Acquisition Id",
+          "type": "string"
+        },
+        "race_id": {
+          "title": "Race Id",
+          "type": "string"
+        },
+        "candidate_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Id"
+        },
+        "kind": {
+          "enum": [
+            "fundamental",
+            "poll",
+            "candidate_statement",
+            "local_reporting",
+            "focus_group"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "value": {
+          "additionalProperties": true,
+          "title": "Value",
+          "type": "object"
+        },
+        "excerpt": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Excerpt"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "available_at": {
+          "format": "date-time",
+          "title": "Available At",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "content_sha256": {
+          "title": "Content Sha256",
+          "type": "string"
+        },
+        "geography": {
+          "title": "Geography",
+          "type": "string"
+        },
+        "geography_scope": {
+          "enum": [
+            "district",
+            "state",
+            "national"
+          ],
+          "title": "Geography Scope",
+          "type": "string"
+        },
+        "record_type": {
+          "default": "fact",
+          "enum": [
+            "fact",
+            "full_session",
+            "edited_clip",
+            "summary",
+            "excerpt"
+          ],
+          "title": "Record Type",
+          "type": "string"
+        },
+        "synthetic": {
+          "default": false,
+          "title": "Synthetic",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "acquisition_id",
+        "race_id",
+        "kind",
+        "locator",
+        "available_at",
+        "retrieved_at",
+        "content_sha256",
+        "geography",
+        "geography_scope"
+      ],
+      "title": "Observation",
+      "type": "object"
+    },
+    "Race": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "cycle": {
+          "default": 2026,
+          "title": "Cycle",
+          "type": "integer"
+        },
+        "office": {
+          "enum": [
+            "house",
+            "senate"
+          ],
+          "title": "Office",
+          "type": "string"
+        },
+        "state": {
+          "title": "State",
+          "type": "string"
+        },
+        "state_fips": {
+          "title": "State Fips",
+          "type": "string"
+        },
+        "district": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "District"
+        },
+        "seat": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Seat"
+        },
+        "boundary_version": {
+          "title": "Boundary Version",
+          "type": "string"
+        },
+        "geography_verified": {
+          "default": false,
+          "title": "Geography Verified",
+          "type": "boolean"
+        },
+        "roster_verified": {
+          "default": false,
+          "title": "Roster Verified",
+          "type": "boolean"
+        },
+        "candidates": {
+          "items": {
+            "$ref": "#/$defs/Candidate"
+          },
+          "title": "Candidates",
+          "type": "array"
+        },
+        "rating": {
+          "anyOf": [
+            {
+              "enum": [
+                "Toss-up",
+                "Lean D",
+                "Lean R",
+                "Lean I",
+                "Likely D",
+                "Likely R"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rating"
+        },
+        "rating_source_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rating Source Id"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "selected": {
+          "default": false,
+          "title": "Selected",
+          "type": "boolean"
+        },
+        "selection_reason": {
+          "default": "Awaiting source audit",
+          "title": "Selection Reason",
+          "type": "string"
+        },
+        "synthetic": {
+          "default": false,
+          "title": "Synthetic",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "office",
+        "state",
+        "state_fips",
+        "boundary_version"
+      ],
+      "title": "Race",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "publisher": {
+          "title": "Publisher",
+          "type": "string"
+        },
+        "kind": {
+          "title": "Kind",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "attribution": {
+          "title": "Attribution",
+          "type": "string"
+        },
+        "rights_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rights Url"
+        },
+        "rights_basis": {
+          "title": "Rights Basis",
+          "type": "string"
+        },
+        "storage": {
+          "default": "unknown",
+          "enum": [
+            "allowed",
+            "denied",
+            "unknown"
+          ],
+          "title": "Storage",
+          "type": "string"
+        },
+        "model_use": {
+          "default": "unknown",
+          "enum": [
+            "allowed",
+            "denied",
+            "unknown"
+          ],
+          "title": "Model Use",
+          "type": "string"
+        },
+        "redistribution": {
+          "default": "unknown",
+          "enum": [
+            "allowed",
+            "denied",
+            "unknown"
+          ],
+          "title": "Redistribution",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "notes": {
+          "default": "",
+          "title": "Notes",
+          "type": "string"
+        },
+        "synthetic": {
+          "default": false,
+          "title": "Synthetic",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "url",
+        "publisher",
+        "kind",
+        "title",
+        "attribution",
+        "rights_basis"
+      ],
+      "title": "Source",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "races": {
+      "items": {
+        "$ref": "#/$defs/Race"
+      },
+      "title": "Races",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "acquisitions": {
+      "items": {
+        "$ref": "#/$defs/Acquisition"
+      },
+      "title": "Acquisitions",
+      "type": "array"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "title": "Observations",
+      "type": "array"
+    },
+    "synthetic": {
+      "default": false,
+      "title": "Synthetic",
+      "type": "boolean"
+    }
+  },
+  "title": "Dataset",
+  "type": "object"
+}

@@ -1,0 +1,52 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "race_id": {
+      "title": "Race Id",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "format": "date-time",
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "projected",
+        "certified"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "winner_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Winner Id"
+    },
+    "notes": {
+      "default": "",
+      "title": "Notes",
+      "type": "string"
+    }
+  },
+  "required": [
+    "race_id",
+    "source_id",
+    "retrieved_at",
+    "status"
+  ],
+  "title": "Outcome",
+  "type": "object"
+}

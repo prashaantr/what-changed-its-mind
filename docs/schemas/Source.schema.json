@@ -1,0 +1,109 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "url": {
+      "title": "Url",
+      "type": "string"
+    },
+    "publisher": {
+      "title": "Publisher",
+      "type": "string"
+    },
+    "kind": {
+      "title": "Kind",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "attribution": {
+      "title": "Attribution",
+      "type": "string"
+    },
+    "rights_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rights Url"
+    },
+    "rights_basis": {
+      "title": "Rights Basis",
+      "type": "string"
+    },
+    "storage": {
+      "default": "unknown",
+      "enum": [
+        "allowed",
+        "denied",
+        "unknown"
+      ],
+      "title": "Storage",
+      "type": "string"
+    },
+    "model_use": {
+      "default": "unknown",
+      "enum": [
+        "allowed",
+        "denied",
+        "unknown"
+      ],
+      "title": "Model Use",
+      "type": "string"
+    },
+    "redistribution": {
+      "default": "unknown",
+      "enum": [
+        "allowed",
+        "denied",
+        "unknown"
+      ],
+      "title": "Redistribution",
+      "type": "string"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Published At"
+    },
+    "notes": {
+      "default": "",
+      "title": "Notes",
+      "type": "string"
+    },
+    "synthetic": {
+      "default": false,
+      "title": "Synthetic",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "url",
+    "publisher",
+    "kind",
+    "title",
+    "attribution",
+    "rights_basis"
+  ],
+  "title": "Source",
+  "type": "object"
+}

@@ -1,0 +1,39 @@
+{
+  "resolved_count": 0,
+  "pending_count": 3,
+  "uniform_mean_brier": null,
+  "uniform_count": 0,
+  "polling_leader_accuracy": null,
+  "polling_leader_count": 0,
+  "polling_leader_missing_count": 0,
+  "arm_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "D_no_focus": 0
+  },
+  "arm_missing_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "D_no_focus": 0
+  },
+  "paired_missing_count": 0,
+  "denominator_note": "Missing comparator/arm counts refer only to certified resolved races; pending outcomes are separate.",
+  "snapshot_id": "initial-v1",
+  "metric": "mean unscaled multiclass Brier (0..2)",
+  "rows": [],
+  "arm_means": {},
+  "paired_B_D": [],
+  "paired_count": 0,
+  "paired_mean_difference": null,
+  "pending_races": [
+    "IA-SEN-2026",
+    "KS-SEN-2026",
+    "TX-SEN-2026"
+  ],
+  "note": "Negative D-minus-B favours qualitative evidence. Repeated snapshots are not independent outcomes.",
+  "primary": false
+}

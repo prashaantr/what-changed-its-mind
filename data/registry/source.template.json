@@ -1,0 +1,16 @@
+{
+  "id": "TEMPLATE-REPLACE-WITH-STABLE-ID",
+  "url": "https://example.invalid/replace-with-verified-primary-source",
+  "publisher": "REPLACE: original publisher",
+  "kind": "REPLACE: official_roster, geography, poll, local_reporting, focus_group or official_prior_results",
+  "title": "REPLACE: exact source title",
+  "attribution": "REPLACE: author, publisher, source date and required credit",
+  "rights_url": null,
+  "rights_basis": "UNREVIEWED TEMPLATE. Describe rights for the exact retained/exported content; public access alone is not redistribution permission.",
+  "storage": "unknown",
+  "model_use": "unknown",
+  "redistribution": "unknown",
+  "published_at": null,
+  "notes": "Drafting reference only; not registered by the collector. Replace all placeholders and independently verify the source before setting synthetic=false. Preserve uncertain date precision instead of inventing a timestamp.",
+  "synthetic": true
+}

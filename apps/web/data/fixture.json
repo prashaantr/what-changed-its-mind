@@ -1,0 +1,103 @@
+{
+  "synthetic": true,
+  "schemaVersion": "1.0",
+  "title": "SYNTHETIC development fixture — not election evidence",
+  "status": "ready",
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "model": "fictional-test-model",
+  "snapshot": { "id": "synthetic-snapshot", "cutoff": "2026-01-01T00:00:00Z" },
+  "protocol": {
+    "finalCutoff": "2026-01-02T00:00:00Z",
+    "targetRaces": 1,
+    "primaryComparison": "Synthetic D minus B"
+  },
+  "stats": {
+    "races": 1,
+    "selected": 1,
+    "sources": 1,
+    "forecasts": 1,
+    "focusGroups": 0
+  },
+  "races": [
+    {
+      "id": "SYNTHETIC-RACE",
+      "name": "Fictional example contest",
+      "office": "senate",
+      "state": "ZZ",
+      "stateFips": "99",
+      "district": null,
+      "rating": "Synthetic",
+      "selected": true,
+      "selectionReason": "Development fixture only",
+      "geographyVerified": false,
+      "rosterVerified": false,
+      "candidates": [
+        {
+          "id": "fictional-alex",
+          "name": "Fictional Alex",
+          "party": "EXAMPLE",
+          "incumbent": null
+        },
+        {
+          "id": "fictional-robin",
+          "name": "Fictional Robin",
+          "party": "EXAMPLE",
+          "incumbent": null
+        }
+      ],
+      "coverage": { "fundamental": 1 },
+      "missing": ["poll"],
+      "observations": [
+        {
+          "id": "fictional-observation",
+          "kind": "fundamental",
+          "candidateId": null,
+          "excerpt": null,
+          "value": { "synthetic": true, "example": 1 },
+          "sourceId": "fictional-source",
+          "locator": "Fixture row 1",
+          "publishedAt": "2026-01-01T00:00:00Z",
+          "availableAt": "2026-01-01T00:00:00Z",
+          "recordType": "fact"
+        }
+      ],
+      "forecasts": [
+        {
+          "id": "fictional-forecast",
+          "arm": "A",
+          "ordering": "canonical",
+          "status": "ok",
+          "probabilities": { "fictional-alex": 0.6, "fictional-robin": 0.4 },
+          "selected": "fictional-alex",
+          "error": null,
+          "requestHash": "synthetic-not-a-real-hash",
+          "startedAt": "2026-01-01T00:00:00Z",
+          "completedAt": "2026-01-01T00:00:01Z",
+          "request": { "synthetic": true },
+          "response": { "synthetic": true },
+          "observationIds": ["fictional-observation"],
+          "omittedObservationIds": []
+        }
+      ],
+      "outcome": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "fictional-source",
+      "title": "Fictional fixture source",
+      "url": "https://example.org",
+      "publisher": "Development fixture",
+      "kind": "fundamental",
+      "attribution": "Project-authored synthetic fixture",
+      "rightsBasis": "Project-authored fictional data",
+      "redistribution": "allowed",
+      "notes": "Never publish as election evidence."
+    }
+  ],
+  "diagnostics": [],
+  "evaluation": null,
+  "limitations": [
+    "Every record in this file is fictional and intended for development tests only."
+  ]
+}
